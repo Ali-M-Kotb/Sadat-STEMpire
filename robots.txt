@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://sadat-stempire.github.io/sitemap.xml
