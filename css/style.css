@@ -998,6 +998,25 @@ video#hero-video {
     border: none;
 }
 
+.Palestine {
+    height: 60px;
+}
+
+#materials {
+    margin-top: 70px;
+    margin-left: 70px;
+}
+
+#studying-materials {
+    margin-top: 70px;
+    margin-left: 70px;
+}
+
+#about {
+    font-family: 'Crimson Text', serif;
+    font-size: xx-large;
+}
+
 .video-ada-bttn img {
     width: 35px;
     opacity: .7;

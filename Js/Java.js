@@ -141,6 +141,7 @@ async function fetchPlaylistVideos(playlistId, pageToken = '') {
 
 async function loadPlaylist() {
     const container = document.getElementById('videoContainer');
+    if (!container) return; // Exit if container doesn't exist
     const playlistId = container.dataset.playlistId;
     if (!playlistId) {
         container.innerHTML = '❌ Playlist ID not found!';
@@ -171,7 +172,9 @@ async function loadPlaylist() {
     } while (nextPageToken);
 }
 
-loadPlaylist();
+if (document.getElementById('videoContainer')) {
+    loadPlaylist();
+}
 
 /**
  * Script to play/pause the video using the controls.
@@ -235,6 +238,7 @@ async function getFolderFiles(folderId) {
 
 async function renderFiles() {
     const container = document.getElementById("file-container");
+    if (!container) return; // Exit if container doesn't exist
     const folderId = container.dataset.folderId;
 
     if (!folderId) {
@@ -278,7 +282,9 @@ async function renderFiles() {
     }
 }
 
-renderFiles();
+if (document.getElementById('file-container')) {
+    renderFiles();
+}
 
 
 

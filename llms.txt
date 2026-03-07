@@ -1,0 +1,22 @@
+# llms.txt for Sadat STEMpire
+
+## About
+Sadat STEMpire is a non-profit organization dedicated to helping 9th-grade students prepare for STEM high school admissions in Egypt. We provide practice exams, study guides, mentorship, and resources to build skills and confidence for admissions to top schools like STEM Schools, Ain Shams Schools, and Al-Dabaa Schools.
+
+## Key Sections
+- **Home**: Introduction to the organization, team members, and testimonials from accepted students.
+- **Materials**: Study materials categorized by subject: IQ, English, Science, Math (English and Arabic versions).
+- **Exams**: Practice exams simulating real STEM admission tests.
+- **Important Files**: Additional resources and guides.
+- **Contact**: Contact information and social media links.
+
+## Content Focus
+The site focuses on educational content for STEM preparation, including interactive elements like quizzes and video content. Important information is available in static HTML for better accessibility.
+
+## Contact
+For more information, visit https://stempire.stemelsadat.org/contact or email sadatstempire@gmail.com.
+
+## Social Media
+- Telegram: https://t.me/Sadat_STEMpire
+- YouTube: https://www.youtube.com/@SadatSTEMpire
+- LinkedIn: https://www.linkedin.com/in/ali-m-kotb
